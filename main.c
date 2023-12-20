@@ -9,12 +9,12 @@ int main ()
     while (b) {
         scanf ("%d", &a);
         if (a == 1) {
-	        LoadRun ("arrayLib.dll", x, y);
+	        LoadRun ("arrayLib.so", x, y);
 	        mode = 1;
             b = 0;
 	    }
         if (a == 2) {
-	        LoadRun ("matrixLib.dll", x, y);
+	        LoadRun ("matrixLib.so", x, y);
 	        mode = 2;
             b = 0;
         }
